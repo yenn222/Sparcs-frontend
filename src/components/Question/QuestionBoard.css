@@ -1,0 +1,9 @@
+hr {
+    background: grey;
+    height: 2px;
+    border: 1px;
+}
+
+.Question_board {
+    width: 300px;
+}

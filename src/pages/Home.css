@@ -1,0 +1,14 @@
+.boards{
+    display: flex;
+    flex-direction: column;
+}
+
+.free_question{
+    display: flex;
+    justify-content: space-around;
+}
+
+.recruit_parent{
+    display: flex;
+    justify-content: space-around;
+}

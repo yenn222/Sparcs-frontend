@@ -1,0 +1,13 @@
+hr{
+    background: grey;
+    height: 2px;
+    border: 1px;
+}
+.freeBoard_header{
+    width: 400px;
+}
+
+.board{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,16 +1,19 @@
 import React from 'react';
 import Home from './pages/Home';
-import Board from './pages/Question';
 import { Routes, Route } from "react-router-dom";
+import FreeBoard from "./components/FreeBoard/FreeBoard";
+import QuestionBoard from "./components/Question/QuestionBoard";
+import RecruitBoard from "./components/RecruitBoard/RecruitBoard";
+import ParentSpace from "./components/ParentSpace/ParentSpace";
 
 function App() {
   return (
     <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/freeboard" element={<Board/>}/>
-        <Route path="/questionboard" element={<Board/>}/>
-        <Route path="/recruitfreeboard" element={<Board/>}/>
-        <Route path="/parentspace" element={<Board/>}/>
+        <Route path="/freeBoard" element={<FreeBoard/>}/>
+        <Route path="/questionBoard" element={<QuestionBoard/>}/>
+        <Route path="/recruitBoard" element={<RecruitBoard/>}/>
+        <Route path="/parentSpace" element={<ParentSpace/>}/>
     </Routes>
   );
 }
